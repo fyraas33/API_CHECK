@@ -1,0 +1,30 @@
+.card{
+  width: 500px;
+  
+  text-align: center;
+  margin: 20px 20px;
+  background-color: rgb(19, 180, 182);
+  padding: 8px 12px;
+  border: 1px solid rgb(223, 223, 223);
+  filter: grayscale(100%);
+}
+.card:hover {
+  filter: grayscale(0%);
+  transform: scale(1.07);
+}
+
+.App{
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  background: url("https://wallpaperaccess.com/full/1567665.png");
+  
+}
+ul{
+  list-style: none;
+  font-size: 24px;
+}
+li{
+  margin: 20px 0;
+  text-align: left;
+}
